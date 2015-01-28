@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
   if(colorPick==4){
     document.body.style.cursor = "url(./images/cursors/pink_icon.png) 0 68, auto";
-    ss.insertRule('.coloredText { background: #FD73A8; }', 0);
+    ss.insertRule('.coloredText { background: #FF8EC9; }', 0);
     ss.insertRule('a { cursor: url(./images/cursors/pink_icon.png) 0 68, auto; }', 0);
     document.getElementById("logoPic").src = "./images/logos/pink@2x.png";
   }
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
   if(colorPick==4){
     document.body.style.cursor = "url(./images/cursors/pink_icon.png) 0 68, auto";
-    ss.insertRule('.coloredText::selection { background: #FD73A8; }', 0);
+    ss.insertRule('.coloredText::selection { background: #FF8EC9; }', 0);
     ss.insertRule('a { cursor: url(./images/cursors/pink_icon.png) 0 68, auto; }', 0);
     document.getElementById("logoPic").src = "./images/logos/pink@2x.png";
   }
