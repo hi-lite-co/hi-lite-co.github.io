@@ -1,7 +1,6 @@
 body, html{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
   height:100%;
   background-color:white;
   -webkit-user-select: none;
@@ -20,6 +19,9 @@ body, html{
 
 #logoPic{
   -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */ /* Firefox < 16 */
         -ms-animation: fadein 1s; /* Internet Explorer */ /* Opera < 12.1 */
             animation: fadein 1s;
