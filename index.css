@@ -4,10 +4,35 @@ body, html{
    font-weight: 300;
   height:100%;
   background-color:white;
- 
-  
-  
 } 
+
+#logoPic{
+  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */ /* Firefox < 16 */
+        -ms-animation: fadein 2.5s; /* Internet Explorer */ /* Opera < 12.1 */
+            animation: fadein 2.5s;
+           transition-timing-function: ease-in;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
 
 /* unvisited link */
 a:link {
@@ -39,13 +64,23 @@ a:active {
     padding-top:10%;
 }
 
+body::-moz-selection{
+  background-color: white;
+}
+
 body::selection{
   background-color: white;
 }
 
 .flex-container{
-  justify-content:center;
+  -webkit-justify-content:center;
+      -ms-flex-pack:center;
+          justify-content:center;
   width:100%;
+ 
+  display:-webkit-flex;
+ 
+  display:-ms-flexbox;
  
   display:flex;
 } 
