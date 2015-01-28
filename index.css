@@ -52,6 +52,7 @@ body, html{
 /* unvisited link */
 a:link {
     color: #FFF;
+    text-decoration:none;
 }
 
 /* visited link */
