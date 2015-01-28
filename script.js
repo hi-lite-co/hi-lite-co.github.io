@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       var ss = document.styleSheets[0];
       console.log(colorPick);
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    document.getElementById("pageTitle").innerHTML = '<span class="coloredText" id="colorSpan">FUCK</span>';
+    document.getElementById("pageTitle").innerHTML = '<span class="coloredText" id="colorSpan">&nbsp;Hi-Lite Design Co.&nbsp;<br>&nbsp;Berkeley, CA&nbsp;</span>';
     if(colorPick==1){
     console.log("hey!");
     
