@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
   if(colorPick==3){
     document.body.style.cursor = "url(./images/cursors/blue_icon.png) 0 68, auto";
-    ss.insertRule('.coloredText { background: #5ACAF9; }', 0);
+    ss.insertRule('.coloredText { background: #72D3FD; }', 0);
     ss.insertRule('a { cursor: url(./images/cursors/blue_icon.png) 0 68, auto; }', 0);
     document.getElementById("logoPic").src = "./images/logos/blue@2x.png";
   }
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
   if(colorPick==3){
     document.body.style.cursor = "url(./images/cursors/blue_icon.png) 0 68, auto";
-    ss.insertRule('.coloredText::selection { background: #5ACAF9; }', 0);
+    ss.insertRule('.coloredText::selection { background: #72D3FD; }', 0);
     ss.insertRule('a { cursor: url(./images/cursors/blue_icon.png) 0 68, auto; }', 0);
     document.getElementById("logoPic").src = "./images/logos/blue@2x.png";
   }
