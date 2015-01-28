@@ -4,16 +4,23 @@ body, html{
    font-weight: 300;
   padding:0 0 0 0;
   background-color:white;
+  height:100%;
+  width: 100%;
   
 } 
 
-#flex-container{
+.flex-container{
   justify-content:center;
   width:100%;
+  height:100%;
   display:flex;
 } 
 
-.title{
+.coloredText{
+  
+}
+
+#title{
   color:white;
   font-size:3em;
   text-align:center;
