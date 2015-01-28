@@ -6,11 +6,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var colorPick = Math.floor((Math.random() * 6) + 1);
       var body=document.getElementsByTagName('body')[0];
       var ss = document.styleSheets[0];
-      ss.insertRule('.coloredText { font-size: 0.5em; }', 0);
       console.log(colorPick);
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      ss.insertRule('.coloredText { font-size: 0.8em; }', 0);
       if(colorPick==1){
-
     console.log("hey!");
     
     document.body.style.cursor = "url(./images/cursors/yellow_icon.png) 0 68, auto";
