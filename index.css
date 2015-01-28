@@ -4,12 +4,19 @@ body, html{
    font-weight: 300;
   height:100%;
   background-color:white;
+  -webkit-user-select: none;
+
 } 
 
+#colorSpan{
+  -webkit-user-select: text;
+}
+
 #logoPic{
-  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */ /* Firefox < 16 */
-        -ms-animation: fadein 2.5s; /* Internet Explorer */ /* Opera < 12.1 */
-            animation: fadein 2.5s;
+  -webkit-user-select:none;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */ /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */ /* Opera < 12.1 */
+            animation: fadein 1s;
            transition-timing-function: ease-in;
 }
 
