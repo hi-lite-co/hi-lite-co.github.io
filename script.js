@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
       var ss = document.styleSheets[0];
       console.log(colorPick);
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      ss.insertRule('.coloredText { font-size: 1.8em; }', 0);
       if(colorPick==1){
     console.log("hey!");
     
