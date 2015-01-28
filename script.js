@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
   if(colorPick==6){
     document.body.style.cursor = "url(./images/cursors/orange_icon.png) 0 68, auto";
-    ss.insertRule('.coloredText { background: #FDAB36; }', 0);
+    ss.insertRule('.coloredText { background: #FEB751; }', 0);
     ss.insertRule('a { cursor: url(./images/cursors/orange_icon.png) 0 68, auto; }', 0);
     document.getElementById("logoPic").src = "./images/logos/orange@2x.png";
   }
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
   if(colorPick==6){
     document.body.style.cursor = "url(./images/cursors/orange_icon.png) 0 68, auto";
-    ss.insertRule('.coloredText::selection { background: #FDAB36; }', 0);
+    ss.insertRule('.coloredText::selection { background: #FEB751; }', 0);
     ss.insertRule('a { cursor: url(./images/cursors/orange_icon.png) 0 68, auto; }', 0);
     document.getElementById("logoPic").src = "./images/logos/orange@2x.png";
   }
