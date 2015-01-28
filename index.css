@@ -2,14 +2,35 @@ body, html{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
-  
+  height:100%;
   background-color:white;
  
   
   
 } 
 
+/* unvisited link */
+a:link {
+    color: #FFF;
+}
+
+/* visited link */
+a:visited {
+    color: #FFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFF;
+}
+
+/* selected link */
+a:active {
+    color: #FFF;
+}
+
 .logo{
+
   width:80%;
   max-width:522px;
    display: block;
