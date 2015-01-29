@@ -2,13 +2,17 @@ body, html{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-family: 'Montserrat', sans-serif;
   height:100%;
-  background-color:#FDFDFD;
+  background-color:#FBFBFB;
   -webkit-user-select: none;
   -ms-user-select: none;
   -moz-user-select: none;
   user-select: none;
 
 } 
+
+body{
+  margin:0 0 0 0;
+}
 
 #colorSpan{
   -webkit-user-select: text;
@@ -23,6 +27,34 @@ body, html{
   -ms-user-select:none;
   user-select:none;
   
+}
+
+#copyright{
+  color:#585858;
+    -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+    width: 100%;
+    position: absolute;
+    
+    
+    bottom:0;
+    text-align: center;
+}
+
+#flexContainer{
+  align-items:center;
+  justify-content:center;
+  align-content:stretch;
+  flex-direction:column;
+  
+  height:100%;
+  display:-webkit-flex;
+ 
+  display:-ms-flexbox;
+ 
+  display:flex;
 }
 
 @keyframes fadein {
@@ -75,12 +107,8 @@ a:active {
 
 .logo{
 
-  width:80%;
+  width:90%;
   max-width:522px;
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:16%;
 }
 
 body::-moz-selection{
@@ -91,18 +119,6 @@ body::selection{
   background-color: white;
 }
 
-.flex-container{
-  -webkit-justify-content:center;
-      -ms-flex-pack:center;
-          justify-content:center;
-  width:100%;
- 
-  display:-webkit-flex;
- 
-  display:-ms-flexbox;
- 
-  display:flex;
-} 
 
 .coloredText{
   color:white;
