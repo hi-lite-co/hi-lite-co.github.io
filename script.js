@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       console.log(colorPick);
       highlightHex = '';
 
-      var yellow = '#F0FF72';
+      var yellow = '#F7F647';
       var green = '#7CFB6D';
       var blue = '#72D3FD';
       var pink = '#FF8EC9';
