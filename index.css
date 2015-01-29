@@ -12,6 +12,8 @@ body, html{
 
 body{
   margin:0 0 0 0;
+   flex-direction: column;
+
 }
 
 #colorSpan{
@@ -45,12 +47,19 @@ body{
 
 #flexContainer{
   align-items:center;
+  -webkit-align-items:center;
+  -moz-align-items:center;
   justify-content:center;
-  align-content:stretch;
+  -webkit-justify-content:center;
+  -moz-justify-content:center;
+
   flex-direction:column;
+  -webkit-flex-direction: column;
   
+  -moz-flex-direction: column;
   height:100%;
   display:-webkit-flex;
+
  
   display:-ms-flexbox;
  
