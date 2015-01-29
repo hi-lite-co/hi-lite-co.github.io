@@ -50,9 +50,15 @@ body, html{
 /* Opera < 12.1 */
 
 /* unvisited link */
+
+a{
+  border-bottom: solid 4px #fff;
+  text-decoration: none;
+}
+
 a:link {
     color: #FFF;
-    text-decoration:none;
+    
 }
 
 /* visited link */
@@ -102,6 +108,7 @@ body::selection{
 } 
 
 .coloredText{
+
   
 }
 
