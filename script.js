@@ -49,11 +49,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
       document.getElementById("pageTitle").innerHTML = '<span class="coloredText" id="colorSpan">&nbsp;Hi-Lite&nbsp;<br>&nbsp;Design Co.&nbsp;<br>&nbsp;Berkeley, CA&nbsp;</span>';
-      ss.insertRule('body { letter-spacing: -1px; }', 0);
+      ss.insertRule('body { letter-spacing: -1px;}', 0);
 
       document.body.style.cursor = 'url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto';
-      ss.insertRule('.coloredText { background: '+highlightHex+'; }', 0);
-      ss.insertRule('a { cursor: url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto; }', 0);
+      ss.insertRule('.coloredText { background: '+highlightHex+'; !important}', 0);
+      ss.insertRule('a { cursor: url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto;}', 0);
       document.getElementById("logoPic").src = './images/logos/'+highlightColor+'@2x.png';
 
    
