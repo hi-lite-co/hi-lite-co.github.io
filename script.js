@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       ss.insertRule('body { letter-spacing: -1px;}', 0);
 
       document.body.style.cursor = 'url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto';
-      ss.insertRule('.coloredText { background: '+highlightHex+'; !important}', 0);
+      ss.insertRule('.coloredText { background: '+highlightHex+' !important; }', 0);
       ss.insertRule('a { cursor: url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto;}', 0);
       document.getElementById("logoPic").src = './images/logos/'+highlightColor+'@2x.png';
 
