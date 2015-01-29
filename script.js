@@ -59,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
    
     
   }else{
+    document.getElementById('logoPic').ondragstart = function() { return false; };
     document.body.style.cursor = 'url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto';
     ss.insertRule('.coloredText::selection { background: '+highlightHex+'; }', 0);
     ss.insertRule('a { cursor: url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto; }', 0);
