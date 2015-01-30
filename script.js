@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       ss.insertRule('body { letter-spacing: -1px;}', 0);
       ss.insertRule('.coloredText { background: '+highlightHex+' !important; }', 0);
       ss.insertRule('#flexContainer { height: 100%; }', 0);
-      ss.insertRule('#dragDown { visibility: hidden; }', 0);
+      ss.insertRule('#dragDown { visibility: hidden; margin-top:-26px !important; }', 0);
       ss.insertRule('a { cursor: url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto;}', 0);
       
 
