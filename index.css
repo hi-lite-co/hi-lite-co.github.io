@@ -150,9 +150,7 @@ body::selection{
   display: inline-block;
   background-color: white;
   border-radius: 4px;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */ /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */ /* Opera < 12.1 */
-            animation: fadein 2s;
+  
 }
 
 #title{
