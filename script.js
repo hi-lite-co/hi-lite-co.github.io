@@ -48,11 +48,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
     document.getElementById("logoPic").style.backgroundImage="url('./images/logos/"+highlightColor+"@2x.png')";
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      //document.getElementById("pageTitle").innerHTML = '<span class="coloredText" id="colorSpan">&nbsp;Hi-Lite&nbsp;<br>&nbsp;Design Co.&nbsp;</span>';
       ss.insertRule('body { letter-spacing: -1px;}', 0);
-      //document.body.style.cursor = 'url(./images/cursors/'+highlightColor+'_icon.png !important) 0 68, auto';
       ss.insertRule('.coloredText { background: '+highlightHex+' !important; }', 0);
       ss.insertRule('#flexContainer { height: 100%; }', 0);
+      ss.insertRule('.#dragDown { visibility: hidden; }', 0);
       ss.insertRule('a { cursor: url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto;}', 0);
       
 
@@ -62,7 +61,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.getElementById('logoPic').ondragstart = function() { return false; };
     document.body.style.cursor = 'url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto';
     ss.insertRule('.coloredText::selection { background: '+highlightHex+'; }', 0);
-    ss.insertRule('.#dragDown { -webkit-animation: fadein 2s forwards;-ms-animation: fadein 2s forwards;-moz-animation:fadein 2s forwards;animation: fadein 2s forwards;-webkit-animation-delay: 5s;-moz-animation-delay: 5s;animation-delay: 5s; }', 0);
     ss.insertRule('a { cursor: url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto; }', 0);
     
 }
