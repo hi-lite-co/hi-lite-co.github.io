@@ -31,46 +31,55 @@ body{
   -moz-user-select:none;
   -ms-user-select:none;
   user-select:none;
+  background-position: right top; 
+  background-size: fill;
   
 }
 
 #copyright{
-  color:#585858;
+  color:#878787;
     -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
+      -moz-user-select:none;
+       -ms-user-select:none;
+        user-select:none;
     width: 100%;
     position: absolute;
-    
     
     bottom:0;
     text-align: center;
 }
 
+#dragDown{
+  margin-bottom:-18px;margin-top:2px;color:#878787;
+
+  -webkit-animation-delay:2s;
+   animation-delay:2s;
+
+  -webkit-animation: fadein 2s forwards; /* Safari, Chrome and Opera > 12.1 */ /* Firefox < 16 */
+        -ms-animation: fadein 2s forwards; /* Internet Explorer */ /* Opera < 12.1 */
+            animation: fadein 2s forwards;
+}
+
 #flexContainer{
   -ms-flex-align:center;
       align-items:center;
-  -webkit-align-items:center;
-  -moz-align-items:center;
-  -ms-flex-pack:center;
-      justify-content:center;
-  -webkit-justify-content:center;
-  -moz-justify-content:center;
+        -webkit-align-items:center;
+          -moz-align-items:center;
+            -ms-flex-pack:center;
+              justify-content:center;
+                -webkit-justify-content:center;
+                    -moz-justify-content:center;
 
   -ms-flex-direction:column;
-
-      flex-direction:column;
-  -webkit-flex-direction: column;
+    flex-direction:column;
+      -webkit-flex-direction: column;
+        -moz-flex-direction: column;
   
-  -moz-flex-direction: column;
   height:100%;
-  display:-webkit-flex;
 
- 
-  display:-ms-flexbox;
- 
-  display:flex;
+  display:-webkit-flex;
+    display:-ms-flexbox;
+      display:flex;
 }
 
 @keyframes fadein {
@@ -93,10 +102,9 @@ body{
 }
 
 
-
+/* link */
 a:link {
     color: #FFF;
-    
 }
 
 /* visited link */
@@ -119,11 +127,12 @@ a:active {
   width:90%;
   max-width:522px;
   padding-bottom: 4px;
+  height:100%;
+  max-height:68px;
+  background-repeat: no-repeat;
 
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */ /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */ /* Opera < 12.1 */
             animation: fadein 2s;
 }
 
@@ -140,14 +149,32 @@ body::selection{
   color:white;
   display: inline-block;
   background-color: white;
-
-  
-
-  
+  border-radius: 4px;
 }
 
 #title{
-  
-  
+  text-align:center;
+  width:90%;
+  font-size:2.2em;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+#titleAll{
+  width:90%;
+  font-size:2.2em;
+  margin-bottom:0;
   text-align:center;
 }
+
+#pageText{
+  text-align:center;
+  font-size:2.2em;
+  margin-top:24px;
+  margin-bottom:0;
+  border-radius: 4px;
+}
+
+
+
+
