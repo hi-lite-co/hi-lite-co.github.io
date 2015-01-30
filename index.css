@@ -50,14 +50,10 @@ body{
 }
 
 #dragDown{
+  opacity: 0;
   margin-bottom:-18px;margin-top:2px;color:#878787;
+  -webkit-animation: fadein 2s forwards;-ms-animation: fadein 2s forwards;-moz-animation:fadein 2s forwards;animation: fadein 2s forwards;-webkit-animation-delay: 5s;-moz-animation-delay: 5s;animation-delay: 5s;
 
-  -webkit-animation-delay:2s;
-   animation-delay:2s;
-
-  -webkit-animation: fadein 2s forwards; /* Safari, Chrome and Opera > 12.1 */ /* Firefox < 16 */
-        -ms-animation: fadein 2s forwards; /* Internet Explorer */ /* Opera < 12.1 */
-            animation: fadein 2s forwards;
 }
 
 #flexContainer{
@@ -150,7 +146,7 @@ body::selection{
   display: inline-block;
   background-color: white;
   border-radius: 4px;
-  
+
 }
 
 #title{
