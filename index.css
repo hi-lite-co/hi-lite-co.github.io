@@ -52,7 +52,7 @@ body{
 #dragDown{
   opacity: 0;
   margin-bottom:-18px;margin-top:2px;color:#878787;
-  -webkit-animation: fadein 2s forwards;-ms-animation: fadein 2s forwards;-moz-animation:fadein 2s forwards;animation: fadein 2s forwards;-webkit-animation-delay: 5s;-moz-animation-delay: 5s;animation-delay: 5s;
+  -webkit-animation: fadein 2s forwards;-ms-animation: fadein 2s forwards;-moz-animation:fadein 2s forwards;animation: fadein 2s forwards;-webkit-animation-delay: 10s;-moz-animation-delay: 10s;-ms-animation-delay: 10s;animation-delay: 10s;
   
 
 }
