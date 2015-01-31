@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       console.log(colorPick);
       highlightHex = '';
 
-      var yellow = '#F7F647';
+      var yellow = '#EBF761';
       var green = '#7CFB6D';
       var blue = '#72D3FD';
       var pink = '#FF8EC9';
@@ -53,15 +53,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
       ss.insertRule('#flexContainer { height: 100%; }', 0);
       ss.insertRule('#dragDown { visibility: hidden; margin-top:-26px !important; }', 0);
       ss.insertRule('a { cursor: url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto;}', 0);
-      
-
-   
-    
   }else{
     document.getElementById('logoPic').ondragstart = function() { return false; };
     document.body.style.cursor = 'url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto';
     ss.insertRule('.coloredText::selection { background: '+highlightHex+'; }', 0);
     ss.insertRule('a { cursor: url(./images/cursors/'+highlightColor+'_icon.png) 0 68, auto; }', 0);
-    
 }
 });
